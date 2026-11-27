@@ -13,27 +13,19 @@ export default function RepositoryCard({ repository }) {
             {repository.name}
           </a>
         ) : (
-          <span className="repo-name">{repository.name}</span>
+          <span className="repo-name">
+            {repository.name}
+          </span>
         )}
 
-        <span className="visibility">{repository.visibility}</span>
+        <span className="visibility">
+          {repository.visibility}
+        </span>
       </div>
 
       <p className="repo-description">
         {repository.description}
       </p>
-
-      {repository.demo && (
-        <p className="repo-demo">
-          <a
-            href={repository.demo}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo ↗
-          </a>
-        </p>
-      )}
 
       <div className="repo-meta">
         <span className="language">
