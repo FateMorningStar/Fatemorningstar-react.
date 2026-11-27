@@ -20,24 +20,6 @@ export const repositories = [
     url: null,
   },
   {
-    name: 'digital-lost-and-found',
-    description: 'A school project concept for reporting and finding lost items.',
-    language: 'Dart',
-    color: '#00B4AB',
-    updated: 'School project',
-    visibility: 'Public',
-    url: null,
-  },
-  {
-    name: 'student-money-tracker',
-    description: 'A student-focused application for recording and organizing expenses.',
-    language: 'Dart',
-    color: '#00B4AB',
-    updated: 'Learning project',
-    visibility: 'Public',
-    url: null,
-  },
-  {
     name: 'RegexGame-DetectiveEdition',
     description: 'An interactive regular expression game.',
     language: 'JavaScript',
@@ -58,4 +40,3 @@ export const repositories = [
     demo: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
   },
 ];
-
