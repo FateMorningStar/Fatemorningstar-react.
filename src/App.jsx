@@ -15,25 +15,21 @@ function ProjectsSection() {
       name: 'Photo Text Reader',
       description:
         'A browser-based OCR application that extracts editable text from images.',
-      demo: null,
     },
     {
       name: 'RegexGame-DetectiveEdition',
       description:
         'An interactive game for learning and practicing regular expressions.',
-      demo: 'https://fatemorningstar.github.io/RegexGame-DetectiveEdition/',
     },
     {
       name: 'Sound-to-Binary-Converter',
       description:
         'A web application for converting sound into binary data.',
-      demo: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
     },
     {
       name: 'GitHub Profile Recreation',
       description:
         'A responsive GitHub profile interface recreated using React and reusable components.',
-      demo: 'https://fatemorningstar.github.io/Fatemorningstar-react./',
     },
   ];
 
@@ -51,18 +47,6 @@ function ProjectsSection() {
             <p className="repo-description">
               {project.description}
             </p>
-
-            {project.demo && (
-              <p className="repo-demo">
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo ↗
-                </a>
-              </p>
-            )}
           </article>
         ))}
       </div>
