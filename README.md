@@ -8,7 +8,7 @@ This project recreates the visual layout of a GitHub profile page, featuring pro
 
 The application is organized into reusable React components to maintain a clean, modular, and maintainable codebase.
 
-Live Demo
+Live Demo is available to be seen.
 
 "View Live Project" (https://fatemorningstar.github.io/Fatemorningstar-react./)
 
