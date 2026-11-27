@@ -26,6 +26,7 @@ export const repositories = [
     updated: 'School project',
     visibility: 'Public',
     url: 'https://github.com/FateMorningStar/RegexGame-DetectiveEdition',
+  },
   {
     name: 'Sound-to-Binary-Converter',
     description: 'A web project for converting sound into binary data.',
@@ -35,4 +36,4 @@ export const repositories = [
     visibility: 'Public',
     url: 'https://github.com/FateMorningStar/Sound-to-Binary-Converter',
   },
-  ];
+];
