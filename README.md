@@ -1,26 +1,28 @@
-# GitHub Profile Recreation (React)
+GitHub Profile Recreation (React)
 
-A responsive GitHub-profile-inspired page built from reusable React components.
+A responsive GitHub-profile-inspired web application built using reusable React components.
 
-link: https://fatemorningstar.github.io/Fatemorningstar-react./
+This project uses React for its frontend and is organized into reusable components such as Navbar, ProfileHeader, ProfileSidebar, and RepositoryCard. It uses HTML and JSX for structuring the interface, CSS for styling, and JavaScript for application logic. Vite is used as the development and build tool.
 
-## Run locally
+Live Demo:
+https://fatemorningstar.github.io/Fatemorningstar-react./
 
-```bash
+Run Locally
+
+To run the project on your computer, use the following commands:
+
 npm install
 npm run dev
-```
 
-## Build for deployment
+Build for Deployment
 
-```bash
+To create a production build and preview it locally:
+
 npm run build
 npm run preview
-```
 
-## Component structure
+Component Structure
 
-```text
 src/
 ├── components/
 │   ├── Navbar.jsx
@@ -34,4 +36,3 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── style.css
-```
