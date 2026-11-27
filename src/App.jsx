@@ -15,25 +15,25 @@ function ProjectsSection() {
       name: 'Photo Text Reader',
       description:
         'A browser-based OCR application that extracts editable text from images.',
-      url: 'https://fatemorningstar.github.io/Photo-Text-Reader-OCR-/',
+      demo: null,
     },
-    
     {
       name: 'RegexGame-DetectiveEdition',
       description:
-        'An interactive regular expression game.',
-      url: 'https://fatemorningstar.github.io/RegexGame-DetectiveEdition/',
+        'An interactive game for learning and practicing regular expressions.',
+      demo: 'https://fatemorningstar.github.io/RegexGame-DetectiveEdition/',
     },
     {
       name: 'Sound-to-Binary-Converter',
       description:
-        'A web project for converting sound into binary data.',
-      url: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
+        'A web application for converting sound into binary data.',
+      demo: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
+    },
     {
-    name: 'GitHub Profile Recreation',
-    description:
-      'A responsive GitHub profile interface recreated using React and reusable components.',
-    demo: 'https://fatemorningstar.github.io/Fatemorningstar-react./',
+      name: 'GitHub Profile Recreation',
+      description:
+        'A responsive GitHub profile interface recreated using React and reusable components.',
+      demo: 'https://fatemorningstar.github.io/Fatemorningstar-react./',
     },
   ];
 
@@ -44,24 +44,25 @@ function ProjectsSection() {
       <div className="repo-list">
         {projects.map((project) => (
           <article className="repo-card" key={project.name}>
-            <h3>
-              {project.url ? (
-                <a
-                  className="repo-name"
-                  href={project.url}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {project.name}
-                </a>
-              ) : (
-                <span className="repo-name">{project.name}</span>
-              )}
+            <h3 className="repo-topline">
+              <span className="repo-name">{project.name}</span>
             </h3>
 
             <p className="repo-description">
               {project.description}
             </p>
+
+            {project.demo && (
+              <p className="repo-demo">
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo ↗
+                </a>
+              </p>
+            )}
           </article>
         ))}
       </div>
