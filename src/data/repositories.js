@@ -8,7 +8,6 @@ export const repositories = [
     updated: 'Updated recently',
     visibility: 'Public',
     url: 'https://github.com/FateMorningStar/Fatemorningstar-react.',
-    demo: 'https://fatemorningstar.github.io/Fatemorningstar-react./',
   },
   {
     name: 'photo-text-reader',
@@ -27,8 +26,6 @@ export const repositories = [
     updated: 'School project',
     visibility: 'Public',
     url: 'https://github.com/FateMorningStar/RegexGame-DetectiveEdition',
-    demo: 'https://fatemorningstar.github.io/RegexGame-DetectiveEdition/',
-  },
   {
     name: 'Sound-to-Binary-Converter',
     description: 'A web project for converting sound into binary data.',
@@ -37,6 +34,5 @@ export const repositories = [
     updated: 'School project',
     visibility: 'Public',
     url: 'https://github.com/FateMorningStar/Sound-to-Binary-Converter',
-    demo: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
   },
-];
+  ];
