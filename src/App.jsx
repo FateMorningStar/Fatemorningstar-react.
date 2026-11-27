@@ -29,6 +29,11 @@ function ProjectsSection() {
       description:
         'A web project for converting sound into binary data.',
       url: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
+    {
+    name: 'GitHub Profile Recreation',
+    description:
+      'A responsive GitHub profile interface recreated using React and reusable components.',
+    demo: 'https://fatemorningstar.github.io/Fatemorningstar-react./',
     },
   ];
 
