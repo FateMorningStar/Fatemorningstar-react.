@@ -17,7 +17,7 @@ export const repositories = [
     color: '#f1e05a',
     updated: 'School project',
     visibility: 'Public',
-    url: null,
+    url: 'https://github.com/FateMorningStar/Photo-Text-Reader-OCR-',
   },
   {
     name: 'RegexGame-DetectiveEdition',
@@ -26,7 +26,7 @@ export const repositories = [
     color: '#f1e05a',
     updated: 'School project',
     visibility: 'Public',
-    url: null,
+    url: 'https://github.com/FateMorningStar/RegexGame-DetectiveEdition',
     demo: 'https://fatemorningstar.github.io/RegexGame-DetectiveEdition/',
   },
   {
@@ -36,7 +36,7 @@ export const repositories = [
     color: '#f1e05a',
     updated: 'School project',
     visibility: 'Public',
-    url: null,
+    url: 'https://github.com/FateMorningStar/Sound-to-Binary-Converter',
     demo: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
   },
 ];
