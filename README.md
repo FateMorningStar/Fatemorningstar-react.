@@ -43,5 +43,5 @@ src/
 
 ## GitHub Pages
 
-The Vite base path is configured for `https://fatemorningstar.github.io/fatemorningstar-react/`.
+The Vite base path is configured for `https://fatemorningstar.github.io/Fatemorningstar-react./`.
 In repository Settings → Pages, set the source to **GitHub Actions**.
