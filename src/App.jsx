@@ -17,18 +17,7 @@ function ProjectsSection() {
         'A browser-based OCR application that extracts editable text from images.',
       url: null,
     },
-    {
-      name: 'Digital Lost & Found',
-      description:
-        'A project concept for reporting and finding lost items.',
-      url: null,
-    },
-    {
-      name: 'Student Money Tracker',
-      description:
-        'An application for recording and organizing student expenses.',
-      url: null,
-    },
+    
     {
       name: 'RegexGame-DetectiveEdition',
       description:
