@@ -7,7 +7,6 @@ import ProfileSidebar from './components/ProfileSidebar';
 import RepositoryList from './components/RepositoryList';
 import ContributionGraph from './components/ContributionGraph';
 import ProjectsSection from './components/ProjectsSection';
-import EmptySection from './components/EmptySection';
 
 import { repositories } from './data/repositories';
 
