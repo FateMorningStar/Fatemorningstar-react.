@@ -22,21 +22,36 @@ Technologies Used
 
 Project Structure
 
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── ProfileHeader.jsx
-│   ├── ProfileSidebar.jsx
-│   ├── RepositoryCard.jsx
-│   ├── RepositoryList.jsx
-│   └── ContributionGraph.jsx
+Fatemorningstar-react./
 │
-├── data/
-│   └── repositories.js
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
 │
-├── App.jsx
-├── main.jsx
-└── style.css
+├── public/
+│   └── avatar.jpg
+│
+├── src/
+│   ├── components/
+│   │   ├── ContributionGraph.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProfileHeader.jsx
+│   │   ├── ProfileSidebar.jsx
+│   │   ├── RepositoryCard.jsx
+│   │   └── RepositoryList.jsx
+│   │
+│   ├── data/
+│   │   └── repositories.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── style.css
+│
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+└── vite.config.js
 
 Getting Started
 
