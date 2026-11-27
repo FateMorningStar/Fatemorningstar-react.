@@ -15,21 +15,25 @@ function ProjectsSection() {
       name: 'Photo Text Reader',
       description:
         'A browser-based OCR application that extracts editable text from images.',
+      url: 'https://fatemorningstar.github.io/Photo-Text-Reader-OCR-/',
     },
     {
       name: 'RegexGame-DetectiveEdition',
       description:
         'An interactive game for learning and practicing regular expressions.',
+      url: 'https://fatemorningstar.github.io/RegexGame-DetectiveEdition/',
     },
     {
       name: 'Sound-to-Binary-Converter',
       description:
         'A web application for converting sound into binary data.',
+      url: 'https://fatemorningstar.github.io/Sound-to-Binary-Converter/',
     },
     {
       name: 'GitHub Profile Recreation',
       description:
         'A responsive GitHub profile interface recreated using React and reusable components.',
+      url: 'https://fatemorningstar.github.io/Fatemorningstar-react./',
     },
   ];
 
