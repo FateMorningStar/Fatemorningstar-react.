@@ -12,7 +12,7 @@ import { repositories } from './data/repositories';
 function ProjectsSection() {
   const projects = [
     {
-      name: 'Photo Text Reader',
+      name: 'Photo Text Reader OCR',
       description:
         'A browser-based OCR application that extracts editable text from images.',
       url: 'https://fatemorningstar.github.io/Photo-Text-Reader-OCR-/',
@@ -45,7 +45,14 @@ function ProjectsSection() {
         {projects.map((project) => (
           <article className="repo-card" key={project.name}>
             <h3 className="repo-topline">
-              <span className="repo-name">{project.name}</span>
+              <a
+                className="repo-name"
+                href={project.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {project.name}
+              </a>
             </h3>
 
             <p className="repo-description">
