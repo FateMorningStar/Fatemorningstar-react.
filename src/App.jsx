@@ -15,7 +15,7 @@ function ProjectsSection() {
       name: 'Photo Text Reader',
       description:
         'A browser-based OCR application that extracts editable text from images.',
-      url: null,
+      url: 'https://fatemorningstar.github.io/Photo-Text-Reader-OCR-/',
     },
     
     {
